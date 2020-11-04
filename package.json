@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Lars Engel, [berlund](https://github.com/berlund)",
+  "bin": {
+    "s3008-purge-rg": "./index.js",
+    "rg-purge": "./index.js"
+  },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
