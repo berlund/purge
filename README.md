@@ -7,7 +7,9 @@ Purge is the **P**ractical and **U**seful **R**ecording **G**roup **E**raser. It
 
 ### Installation
 
-TBD
+```
+npm install github:berlund/purge
+```
 
 ### Run
 

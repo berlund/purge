@@ -1,13 +1,17 @@
 {
-  "name": "recording-group-eraser",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@berlund/purge",
+  "version": "0.0.1",
+  "description": "The Practical and Useful Recording Group Eraser. Removes all recording groups from an Axis S3008 Recorder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/berlund/purge"
+  },
   "dependencies": {
     "fast-xml-parser": "^3.17.4",
     "he": "^1.2.0",
