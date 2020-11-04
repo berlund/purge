@@ -8,7 +8,7 @@ Purge is the **P**ractical and **U**seful **R**ecording **G**roup **E**raser. It
 ### Installation
 
 ```
-npm install github:berlund/purge
+npm install -g github:berlund/purge
 ```
 
 ### Run
@@ -16,12 +16,12 @@ npm install github:berlund/purge
 The only required argument is the IP address of your recorder:
 
 ```bash
-node index.js 192.168.1.22
+nvr-purge 192.168.1.22
 ```
 
 Delete recording groups with custom credentials:
 ```bash
-node index.js 192.168.1.22 -u username -p password
+nvr-purge 192.168.1.22 -u username -p password
 ```
 
 ## Contributions
