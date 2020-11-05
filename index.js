@@ -28,8 +28,7 @@ var argv = require('yargs/yargs')(process.argv.slice(2))
   let password = argv.pass ?? "pass"
 
   try {
-    const erasedGroups = await erase(address, username, password)
-    console.log(erasedGroups)
+    await erase(address, username, password)
   } catch (e) {
     console.error(`Unexpected error: ${e}`)
   }
