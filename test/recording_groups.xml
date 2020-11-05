@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordingGroupResponse schemaversion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.axis.com/vapix/http_cgi/recording_group.xsd">
+    <ListSuccess>
+        <RecordingGroup RecordingGroupId="Low_ACCC8E8929E6_0_C" NiceName="Low ACCC8E8929E6_0" Description="Recording group for ACCC8E8929E6_0" RetentionTime="720" DiskId="HDD_DISK" StreamOptions="device=ACCC8E8929E6&amp;streamprofile=ACC_Low_ACCC8E8929E6_0&amp;camera=1" PreDuration="0" PostDuration="0"/>
+        <RecordingGroup RecordingGroupId="High_ACCC8E8929E6_0_C" NiceName="High ACCC8E8929E6_0" Description="Recording group for ACCC8E8929E6_0" RetentionTime="720" DiskId="HDD_DISK" StreamOptions="device=ACCC8E8929E6&amp;streamprofile=ACC_High_ACCC8E8929E6_0&amp;camera=1" PreDuration="0" PostDuration="0"/>
+        <RecordingGroup RecordingGroupId="Low_ACCC8E8929E6_0_M" NiceName="Low ACCC8E8929E6_0" Description="Recording group for ACCC8E8929E6_0" RetentionTime="720" DiskId="HDD_DISK" StreamOptions="device=ACCC8E8929E6&amp;streamprofile=ACC_Low_ACCC8E8929E6_0&amp;camera=1" PreDuration="5000" PostDuration="0"/>
+        <RecordingGroup RecordingGroupId="High_ACCC8E8929E6_0_M" NiceName="High ACCC8E8929E6_0" Description="Recording group for ACCC8E8929E6_0" RetentionTime="720" DiskId="HDD_DISK" StreamOptions="device=ACCC8E8929E6&amp;streamprofile=ACC_High_ACCC8E8929E6_0&amp;camera=1" PreDuration="5000" PostDuration="0"/>
+    </ListSuccess>
+</RecordingGroupResponse>
