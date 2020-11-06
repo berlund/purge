@@ -1,7 +1,7 @@
 var parser = require('fast-xml-parser')
 var he = require('he');
 
-exports.parse = (xmlData) => {
+export function parse(xmlData: string): any {
   var options = {
     attributeNamePrefix: "",
     //attrNodeName: "attr", //default is 'false'
@@ -16,8 +16,8 @@ exports.parse = (xmlData) => {
     cdataPositionChar: "\\c",
     parseTrueNumberOnly: false,
     arrayMode: false,
-    attrValueProcessor: (val, attrName) => he.decode(val, { isAttributeValue: true }),
-    tagValueProcessor: (val, tagName) => he.decode(val),
+    attrValueProcessor: (val: any, attrName: any) => he.decode(val, { isAttributeValue: true }),
+    tagValueProcessor: (val: any, tagName: any) => he.decode(val),
     stopNodes: ["parse-me-as-string"]
   };
 
