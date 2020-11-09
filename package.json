@@ -4,6 +4,7 @@
   "description": "The Practical and Useful Recording Group Eraser. Removes all recording groups from an Axis S3008 Recorder",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build tsconfig.json",
     "test": "node_modules/.bin/mocha",
     "test-cov": "nyc npm test && nyc report --reporter=text-lcov > coverage.lcov"
   },
@@ -26,9 +27,10 @@
     "yargs": "^16.1.0"
   },
   "devDependencies": {
+    "@types/node": "^14.14.6",
     "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
     "mocha": "^8.2.1",
-    "nock": "^13.0.4",
-    "istanbul": "^0.4.5"
+    "nock": "^13.0.4"
   }
 }

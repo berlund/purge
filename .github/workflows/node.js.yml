@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, refactor/* ]
   pull_request:
     branches: [ main ]
 
@@ -16,8 +16,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
-        #node-version: [10.x, 12.x, 14.x]
+        #node-version: [14.x]
+        node-version: [10.x, 12.x, 14.x]
 
     steps:
     - uses: actions/checkout@v2
