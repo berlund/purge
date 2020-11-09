@@ -9,21 +9,18 @@ Purge is the **P**ractical and **U**seful **R**ecording **G**roup **E**raser. It
 ### Installation
 
 ```
-npm install -g github:berlund/purge
+npm install -g @berlund/purge
 ```
 
 ### Run
 
-The only required argument is the IP address of your recorder:
+The only required argument is the IP address of your S3008 recorder:
 
 ```bash
 nvr-purge 192.168.1.22
 ```
 
-Delete recording groups with custom credentials:
+Delete recording groups with custom credentials (HTTP Digest):
 ```bash
-nvr-purge 192.168.1.22 -u username -p password
+nvr-purge 192.168.1.22 -u username -p secret
 ```
-
-## Contributions
-TBD
